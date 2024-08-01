@@ -7,7 +7,8 @@ class ContaCorrente extends Conta {
     }
 
     aplicarJuros(){
-        this.saldo *= (1+this.juros);
+        let novoSaldo = this.saldo * (1+this.juros);
+        this.saldo = novoSaldo.toFixed(2);
     }
 }
 

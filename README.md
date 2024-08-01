@@ -26,7 +26,19 @@ aplicarRendimento(), que aumenta o saldo com base no
 rendimento.
 
 ### Interação com o Usuário:
-- [ ] Permita que o usuário crie uma conta, deposite, saque e veja o saldo de cada
+- [x] Permita que o usuário crie uma conta, deposite, saque e veja o saldo de cada
 tipo de conta.
 
 ## Execução
+### Requisitos
+- NodeJS v20.15.1
+
+### Instalar dependências
+`
+    npm install
+`
+
+### Executar o programa
+`
+    node index.js
+`

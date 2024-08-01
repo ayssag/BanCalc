@@ -7,7 +7,8 @@ class ContaPoupanca extends Conta {
     }
 
     aplicarRendimento(){
-        this.rendimento *= (1+this.rendimento);
+        let novoSaldo = this.rendimento * (1+this.rendimento);
+        this.saldo = novoSaldo.toFixed(2);
     }
 }
 

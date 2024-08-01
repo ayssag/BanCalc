@@ -6,14 +6,12 @@ class Conta {
 
     depositar(valor){
         this.saldo += valor;
+        return this.saldo;
     }
 
     sacar(valor){
         this.saldo -= valor;
-    }
-
-    verSaldo(){
-        console.log(`Saldo da conta: R$${this.saldo}`);
+        return this.saldo;
     }
 }
 
